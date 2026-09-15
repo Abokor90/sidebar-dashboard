@@ -61,11 +61,11 @@ Building interactive UI components
 
 
 DevSpace/
-│
-├── Images/
-│   └── profile-image
-│
-├── index.html
-├── styles.css
-├── script.js
-└── README.md
+  │
+  ├── Images/
+  │   └── profile-image
+  │
+  ├── index.html
+  ├── styles.css
+  ├── script.js
+  └── README.md
