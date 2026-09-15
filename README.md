@@ -31,13 +31,13 @@ It uses a sidebar navigation system that allows users to move between different 
 
 The Projects section contains project cards for projects I am building as part of my JavaScript learning journey.
 
-Current Projects
-To-Do List
-Shopping Cart
-Quiz App
-Calculator
-Expense Tracker
-Product Search & Filter
+- Current Projects
+- To-Do List
+- Shopping Cart
+- Quiz App
+- Calculator
+- Expense Tracker
+- Product Search & Filter
 
 The project cards are currently included in the dashboard, while the actual project links and completed projects will be added later as the projects are built.
 
