@@ -31,7 +31,8 @@ It uses a sidebar navigation system that allows users to move between different 
 
 The Projects section contains project cards for projects I am building as part of my JavaScript learning journey.
 
-- Current Projects
+**Current Projects
+
 - To-Do List
 - Shopping Cart
 - Quiz App
