@@ -13,37 +13,33 @@
     <div class="sidebar-top">
       <h1>💻 DevSpace</h1>
 
-      <button class="toggle-button">
+      <button class="toggle-button js-toggle-button">
         <i class="bx bx-menu"></i>
       </button>
     </div>
 
-    <div class="profile">
-      <img src="Images/abokor.jpeg" alt="Profile picture">
-    </div>
-
     <nav class="navigation">
-      <a class="links" href="#">
+      <a class="links" href="#home">
         <i class="bx bx-home"></i>
         <span>Home</span>
       </a>
-      <a class="links" href="#">
+      <a class="links" href="#about">
         <i class="bx bx-user"></i>
         <span>About</span>
       </a>
-      <a class="links" href="#">
+      <a class="links" href="#projects">
         <i class="bx bx-folder"></i>
         <span>Projects</span>
       </a>
-      <a class="links" href="#">
+      <a class="links" href="#skills">
         <i class="bx bx-code-alt"></i>
         <span>Skills</span>
       </a>
-      <a class="links" href="#">
+      <a class="links" href="#blog">
         <i class="bx bx-edit"></i>
         <span>Blog</span>
       </a>
-      <a class="links" href="#">
+      <a class="links" href="#contact">
         <i class="bx bx-envelope"></i>
         <span>Contact</span>
       </a>
@@ -55,26 +51,29 @@
   </aside>
 
   <main class="main-content">
-    <section class="content-section" id="home">
+    <section class="content-section active-section" id="home">
       <div class="welcome-card">
-        <p class="welcome-text">WELCOME TO DEVSPACE</p>
-        <h2>Build. Learn. Grow</h2>
+        <h2 class="welcome-text">WELCOME TO DEVSPACE</h2>
+        <h3>Build. Learn. Grow</h3>
         <p>
           A place to learn, build, and grow as a developer.
           Explore projects, skills, and resources all in in one place.
         </p>
-        <button class="explore-button">Explore Projects</button>
+        <button class="explore-button links" href="#projects">Explore Projects</button>
       </div>
     </section>
 
     <section class="content-section" id="about">
       <div class="about-header">
-        <p class="section-label">ABOUT</p>
-        <h2>Whi i am</h2>
+        <div class="profile">
+          <img src="Images/abokor.jpeg" alt="Profile picture">
+        </div>
+        <h1 class="section-label">ABOUT</h1>
+        <h2>Who am i?</h2>
         <p>
           I'm a developer who enjoys learning new technologies, building projects, and solving problems with code.
         </p>
-      </div>  
+      </div>
         <div class="about-info">
           <div class="info-card">
             <h3>My Journey</h3>
@@ -94,7 +93,7 @@
 
     <section class="content-section" id="projects">
       <div class="projects-header">
-        <p class="section-label">PROJECTS</p>
+        <h1 class="section-label">PROJECTS</h1>
         <h2>My Projects</h2>
         <p>
           A collection of projects I've built while learning and improving my development skills.
@@ -103,7 +102,7 @@
 
       <div  class="project-grid">
         <div class="project-card">
-          <h3>To-do list</h3>
+          <h3 class="project-type">To-do list</h3>
           <p>
             A simple To-do list built with HTML, CSS, JavaScript.
           </p>
@@ -130,7 +129,7 @@
 
     <section class="content-section" id="skills">
       <div class="skills-header">
-        <p  class="section-label">SKILLS</p>
+        <h1 class="section-label">SKILLS</h1>
         <p>
           Technologies and tools I'm currently learning and using.
         </p>
@@ -175,7 +174,7 @@
 
     <section class="content-section" id="blog">
       <div class="blog-header">
-        <p class="section-label">BLOG</p>
+        <h1 class="section-label">BLOG</h1>
         <h2>Latest Articles</h2>
         <p>
           Thoughts, lessons, and experiences from my development journey.
@@ -190,7 +189,7 @@
             A look at the JavaScript concepts I'm currently learning
             and practicing through projects.
           </p>
-          <a href="#">Read Article</a>
+          <a href="#" class="read-more">Read Article</a>
         </article>
 
         <article class="blog-card">
@@ -199,7 +198,7 @@
             How I started learning web development and the steps I'm
             taking to become a better developer.
           </p>
-          <a href="#">Read Article</a>
+          <a href="#" class="read-more">Read Article</a>
         </article>
 
         <article class="blog-card">
@@ -208,7 +207,7 @@
             How building practical projects can improve your coding
             skills and help you understand what you learn.
           </p>
-          <a href="#">Read Article</a>
+          <a href="#" class="read-more">Read Article</a>
         </article>
 
       </div>
@@ -216,11 +215,11 @@
 
     <section class="content-section" id="contact">
       <div class="contact-header">
-        <p class="section-label">CONTACT</p>
+        <h1 class="section-label">CONTACT</h1>
         <h2>Get In Touch</h2>
         <p>
           Have a question, project idea, or just want to say hello?
-          Send me a message.
+          Fell free to send me a message.
         </p>
       </div>
 
